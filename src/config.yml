@@ -1,0 +1,100 @@
+####################################
+#####  AuthCore By MrAlecroYT  #####
+####################################
+
+Version: 1.0.2
+
+######################
+#### WorldOptions ####
+######################
+
+AntiJoinMessage:
+  Enable: true
+
+#################
+#### Gcaptcha ###
+#################
+server: Lobby-001
+
+######################
+#### ServerOptions ###
+######################
+
+#Esto es para todo (Chat,Score y mas).
+MVdWPlaceholderAPI: false
+PlaceholderAPI: true
+VoidSpawn: true
+
+Online:
+  Enable: true
+  Arriba: "&fEstas jugando en &a&lGROY&f&lLAND NETWORK"
+  Abajo: "&fCompra tu rango en &atienda.groyland.net"
+
+#######################
+###  PlayerOptions  ###
+#######################
+
+JoinMessage:
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&8&m+--------------------------------------------------------+'
+  - ''
+  - '                        &a&lGROY&f&lLAND NETWORK'
+  - ''
+  - '         &fiBienvenido &a%player% &fal &aServidor AuthLobby #1&f!'
+  - ''
+  - '&8  » &fUsa &a/register [password] [password] &fpara registrarte.'
+  - ''
+  - '&8  » &fUsa &a/login [password] &fpara loguearte el servidor.'
+  - ''
+  - '&8&m+--------------------------------------------------------+'
+
+#######################
+####  GWorldGuard  ####
+#######################
+
+Mundo:
+  - "AuthLobby"
+Protecciones:
+  LobbyOptions:
+    Hambre: false
+    Max-Vida: 20
+    MobSpawn: false
+    Fuego: false
+    AntiTNT: true
+    Lava: false
+    Lava-Correr: false
+    Agua: true
+    Agua-Correr: true
+    ArmorProtect: true
+
+  PlayersOptions:
+    FallDamage: false
+    PvP: false
+    NoMobDamage: false
+    Construir: false
+    Destruir: false
+    ItemDrop: true
+    ItemPickUp: true
+    UseEnderP: false
+    Dormir: false
+    Usar: false
+
+#######################
+#### GServerMessage ###
+#######################
+Mensajes:
+  Server-Lleno: '&a&lSERVIDOR LLENO! &fSi quieres entrar compra rango en &atienda.groyland.net&f.'
+  Whitelist: '&a&lLISTA BLANCA! &f¡No puedes entrar a este servidor!'
+  No-Permisisos: '&cNo tienes permisos.'
+
+#######################
+####  GPermissions  ###
+#######################
+VipJoinPermission: 'auth.entrarfull'
+SetSpawn: 'auth.setspawn'
+Memoria: 'auth.Memoria'
+
+

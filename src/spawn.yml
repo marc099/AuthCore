@@ -1,0 +1,11 @@
+#Spawn
+JoinSpawn: true
+SetSpawnMsj: ''
+EntrySpawn: ''
+Spawn:
+  x: 246.4887587980321
+  y: 188.0
+  z: -1513.5299203821658
+  world: AuthLobby
+  yaw: 234.00246
+  pitch: 6.749969

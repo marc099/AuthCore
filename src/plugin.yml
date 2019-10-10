@@ -1,0 +1,17 @@
+name: AuthCore
+main: me.mralecroyt.authcore.CoreMain
+version: 1.0.3
+authors: [MrAlecroYT]
+description: Plugin for GroyLandNetWork
+softpend: [PlaceholderAPI, Vault, Authme]
+commands:
+  memoria:
+    description: Memoria
+  setspawn:
+    description: setea el Spawn
+  spawn:
+    description: Te lleva al Spawn
+  code:
+    usage: /code
+    aliases: [c]
+

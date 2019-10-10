@@ -1,0 +1,39 @@
+#######################
+###  SCOREBOARD ###
+#######################
+
+use-scoreboard: true
+Update-delay-time: 3
+
+
+####################
+###  ScoreTitle  ###
+####################
+
+Title: '&a&lGROY&f&lLAND NETWORK '
+
+#####################
+###  GScoreBoard  ###
+#####################
+
+# SOLO 16 LINEAS
+
+
+scoreboard-lines:
+  - '%empty%'
+  - '&f¡Bienvenido!'
+  - '%empty%'
+  - '&fUsuario: &a%player%'
+  - ''
+  - '&fUsa para loguear &8»'
+  - '&a/login [password]'
+  - '%empty%'
+  - '&fUsa para registrarte &8»'
+  - '&a/register [pass] [pass]'
+  - '%empty%'
+  - '&amc.groyland.net'
+
+#Variables:
+#  %player% - Enseñar nombre
+#  %group% - No creo que sea compatible con PP
+#  %empty% - Espacio
