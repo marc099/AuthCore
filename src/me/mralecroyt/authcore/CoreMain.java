@@ -120,7 +120,7 @@ public class CoreMain extends JavaPlugin implements Listener {
             this.reloadConfig();
         }
         cs.sendMessage("Completado...." + this.getDescription().getVersion());
-        cs.sendMessage("[AutCore] Plugin by MrAlecroYT");
+        cs.sendMessage("[AuthCore] Plugin by MrAlecroYT");
         cs.sendMessage("#######################################");
     }
 
